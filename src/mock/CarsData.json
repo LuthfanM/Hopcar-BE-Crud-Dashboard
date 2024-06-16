@@ -1,0 +1,37 @@
+[
+    {
+        "id": "uuidv4()",
+        "registrationNumber": "ABC123",
+        "brand": "Toyota",
+        "model": "Camry",
+        "notes": "Regular maintenance"
+      },
+      {
+        "id": "uuidv4()",
+        "registrationNumber": "ABC123",
+        "brand": "Toyota",
+        "model": "Camry",
+        "notes": "idk"
+      },
+      {
+        "id": "uuidv4()",
+        "registrationNumber": "ABC123",
+        "brand": "Toyota",
+        "model": "Camry",
+        "notes": "test"
+      },
+      {
+        "id": "uuidv4()",
+        "registrationNumber": "ABC123",
+        "brand": "Toyota",
+        "model": "Camry",
+        "notes": "lalalala"
+      },
+      {
+        "id": "uuidv4()",
+        "registrationNumber": "ABC123",
+        "brand": "Toyota",
+        "model": "Camry",
+        "notes": "asasase"
+      }
+]
