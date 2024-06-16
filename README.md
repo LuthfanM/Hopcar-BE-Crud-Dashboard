@@ -28,12 +28,29 @@
 
 ## Installation
 
+I use pnpm here but you can use npm or yarn if you want to
+
 ```bash
 $ pnpm install
 ```
 
-## Running the app
+## Instruction how to run the app
 
+This project is connected with [Front End App](https://github.com/LuthfanM/Hopcar-FE-Crud-Dashboard) to make it works. 
+
+You need to follow this instruction to make it works.
+  - Make a copy of **.env.example** and rename it into **.env**
+```bash
+cp .env.example .env
+```
+Adjust key CORS_ORIGINS into ip that you allow to access the be. In this case for me the value are `http://localhost:3000,http://localhost:8081`.
+
+  - This project is using `SQLITE` for easier setup. It is located at file `database.sqlite`. You can make it appear by seeding or start this project
+  - Seeding means you will populate data that i already prepare in certain file. It will add several data into your `database.sqlite`. This is optional but recommended to make our table is filled with some data
+```
+npm run seed
+```
+  - To start the the project
 ```bash
 # development
 $ pnpm run start
@@ -44,29 +61,6 @@ $ pnpm run start:dev
 # production mode
 $ pnpm run start:prod
 ```
-
-## Test
-
-```bash
-# unit tests
-$ pnpm run test
-
-# e2e tests
-$ pnpm run test:e2e
-
-# test coverage
-$ pnpm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
